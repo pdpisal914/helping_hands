@@ -1,0 +1,64 @@
+/* styles.css */
+.border-paneBG {
+    -fx-background-color: rgb(244, 142, 246); /* Background color */
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius (rounded corners) */
+}
+
+.backgroundImage {
+    -fx-background-image: url('C:\Users\Chaitanya\Documents\javaFX\Helping Hands\Helping Hand\src\HelpinHands_logo.jpg'); /* Set the path to your background image */
+    -fx-background-size: cover; /* Adjust as needed */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+
+    
+}
+.border_color{
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; 
+
+}
+.button {
+    -fx-background-color:rgb(244, 142, 246) ;/* Background color */
+    -fx-text-fill: rgb(2, 2, 2); /* Text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding (top/bottom and left/right) */
+    -fx-background-radius: 5px; /* Border radius for rounded corners */
+}
+/* Apply a border to TextField */
+.text-field {
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-color: white;
+}
+
+/* Apply a border to TextArea */
+.text-area {
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-color: white;
+}
+.button2 {
+    -fx-background-color : white;/* Background color */
+    -fx-text-fill: rgb(2, 2, 2); /* Text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding (top/bottom and left/right) */
+    -fx-background-radius: 5px; /* Border radius for rounded corners */
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 0.5px; /* Border width */
+    -fx-border-radius: 3px; 
+}
+/* Apply styling to the ComboBox */
+.combo-box {
+    -fx-background-color: white; /* Set the background color to white */
+    -fx-text-fill: black; /* Set the text color to black (or any other color you prefer) */
+    -fx-background-insets: 0; /* Remove the default ComboBox insets for a flat appearance */
+    -fx-padding: 2 2 2 2; /* Add padding to the ComboBox for spacing */
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 0.5px; /* Border width */
+    -fx-border-radius: 3px;
+}

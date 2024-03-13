@@ -1,0 +1,42 @@
+/* styles.css */
+
+.profile-button {
+    -fx-background-color: #0077D3; /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-cursor: hand; /* Cursor on hover */
+}
+
+.profile-button:hover {
+    -fx-background-color: #0055A0; /* Background color on hover */
+}
+.root {
+    -fx-background-color:lightblue;
+}
+
+.combo-box  {
+    -fx-background-color: #61a7ed; /* Background color */
+    -fx-font-size-: 16px;
+    -fx-text-fill: white; /* Text color */
+    -fx-padding: 5 10 5 10; /* Padding: top right bottom left */
+    -fx-background-insets: 0 5 0 5;
+    -fx-border-radius: 10; /* Insets: top right bottom left */
+}
+
+.label {
+    -fx-font-family: "Verdana"; /* Font family (replace with your preferred font family) */
+    -fx-font-size: 20; /* Font size in pixels */ 
+    -fx-font-style: italic; /* Font style (normal, italic, oblique) */
+    -fx-text-fill: #333333; /* Text color (optional) */
+}
+
+.labelvalue {
+    -fx-font-family: "System"; /* Font family (replace with your preferred font family) */
+    -fx-font-size: 16; /* Font size in pixels */ 
+    -fx-font-style: Normal; /* Font style (normal, italic, oblique) */
+    -fx-text-fill: #151212; /* Text color (optional) */
+}
+

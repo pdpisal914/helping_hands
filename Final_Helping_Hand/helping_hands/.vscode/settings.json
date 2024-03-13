@@ -1,0 +1,39 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "JAR_File\\controlsfx-8.40.11.jar",
+        "JAR_File\\mysql-connector-j-8.1.0.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "pdp",
+            "group": "pdp",
+            "database": "pinfo",
+            "username": "root",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "galaxy",
+            "username": "root",
+            "name": "con",
+            "group": "con",
+            "password": ""
+        }
+    ]
+}

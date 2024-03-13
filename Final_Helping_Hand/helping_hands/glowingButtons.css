@@ -1,0 +1,38 @@
+/* glowing effect for buttons and images */
+.glowing {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,255,0,0.7), 10, 0, 0, 0);
+    -fx-foreground-color: rgb(13, 1, 1); /* Set foreground color to white */
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+    -fx-font-weight: bold;
+}
+
+/* Animation for glowing effect */
+.glowing:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,255,0,0.7), 10, 0, 0, 0);
+    -fx-foreground-color: rgb(13, 13, 13); /* Set foreground color to white */
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+    -fx-font-weight: bold;
+}
+
+/* Customize button colors here */
+#profileIcon {
+    -fx-background-color: #FF5733; /* Orange */
+}
+
+#logo {
+    -fx-background-color: #33A8FF; /* Blue */
+}
+
+#searchButton {
+    -fx-background-color: #20e30a; /* Green */
+}
+
+#cityButton {
+    -fx-background-color: #1603a5; /* Yellow */
+}
+
+#allButton {
+    -fx-background-color: #ce1515; /* Pink */
+}
